@@ -39,7 +39,7 @@ function App() {
           </form>
       </div>
 
-      <div>
+      <div className='appRecipes'>
         {recipes.map((recipe) => {
           return <RecipeGallery recipe={recipe}></RecipeGallery>;
         })}

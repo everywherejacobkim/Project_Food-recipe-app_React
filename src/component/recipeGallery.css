@@ -1,4 +1,20 @@
 .recipeGallery {
-    margin-top: 10px;
+    margin-top: 20px;
   }
   
+.recipeImage {
+    height: 200px;
+    width: 200px;
+    object-fit: cover; 
+    border-radius: 5px;
+
+}
+
+.recipeName {
+    max-width: 200px;
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    transform: translateX(12px);
+}

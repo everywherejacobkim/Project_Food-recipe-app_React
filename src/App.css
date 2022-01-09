@@ -42,7 +42,15 @@
   color: white;
 }
 
-RecipeGallery {
-  margin-top: 20px;
+.appRecipes {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 230px 230px;
+  align-items: baseline;
 }
 
+@media (min-width: 900px) {
+  .appRecipes {
+    grid-template-columns: 230px 230px 230px 230px;
+  }
+}
