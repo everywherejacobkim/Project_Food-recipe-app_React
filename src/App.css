@@ -4,6 +4,7 @@
   padding-top: 1px;
   padding-bottom: 20px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -14,5 +15,23 @@
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: white;
   font-weight: 300;
+}
+
+.searchForm {
+  margin: 10px auto;
+}
+
+.searchForm input {
+  width: 270px;
+  height: 20px;
+}
+
+.searchForm button {
+  padding: 3px 5px;
+  margin-left: 5px;
+  background-color: rgb(95, 164, 228);
+  border: 2px solid cornflowerblue;
+  border-radius: 4px;
+  color: white;
 }
 
