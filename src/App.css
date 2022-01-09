@@ -1,6 +1,6 @@
 
 .App {
-  background-color: rgb(33, 33, 34);
+  
   padding-top: 1px;
   padding-bottom: 20px;
   display: flex;
@@ -15,6 +15,13 @@
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: white;
   font-weight: 300;
+}
+
+.header {
+  background-color: rgb(33, 33, 34);
+  width: 100%;
+  text-align: center;
+  padding-bottom: 15px;
 }
 
 .searchForm {
@@ -33,5 +40,9 @@
   border: 2px solid cornflowerblue;
   border-radius: 4px;
   color: white;
+}
+
+RecipeGallery {
+  margin-top: 20px;
 }
 
