@@ -31,10 +31,25 @@ function App() {
           <form className='searchForm' onSubmit={onSubmit}>
             <input 
               type='text' 
+              list='autoOptions'
               placeholder='Enter Ingredient' 
               value={query} 
               onChange={(e)=>queryEdit(e.target.value)}>
             </input>
+            <datalist id='autoOptions'>
+                <option value='Egg'></option>
+                <option value='Egg Plant'></option>
+                <option value='Potato'></option>
+                <option value='Sweet Potato'></option>
+                <option value='Bean'></option>
+                <option value='Beef'></option>
+                <option value='Olive'></option>
+                <option value='Pork'></option>
+                <option value='Pork Belly'></option>
+                <option value='Chicken'></option>
+                <option value='Melon'></option>
+                <option value='Banana'></option>
+            </datalist>
             <button>Search</button>
             <select className='healthLabels'>
               <option onClick={()=> healthLabelEdit("vegan")}>Vegan</option>
@@ -62,12 +77,7 @@ function App() {
         })}
       </div>
 
-
-
     </div>
-
-
-
 
   );
 }
